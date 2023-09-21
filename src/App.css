@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 50px;
+    box-shadow: 0 1px 4px grey;
+}
+button{
+    cursor: pointer;
+}
+ul li::before{
+    content:"";
+    display: inline-block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(55, 190, 235);
+    margin: 0 10px;
+}
+#container{
+    
+    padding: 15px 50px;
+    height: 100vh;
+    position: relative;
+}
+
+ul li{
+    margin: 10px 0;
+}
+.darkNavbar{
+    background-color: #1c1c1c;
+    color: white;
+}
+.darkBody{
+    background-color: #333;
+    color: white;
+}
+.lightNavbar{
+    background-color: white;
+    color: black;
+    box-shadow: 0 1px 4px grey;
+}
+.circle{
+    border-radius: 50%;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.cont{
+    display: block;
+    background-color: #333;
+    border-radius: 30px;
+    width: 40px;
+    padding: 2px;
+    cursor: pointer;
+    position: relative;
+    height: 20px;
+}
+.contClicked{
+    background-color: white;
+    display: block;
+    border-radius: 30px;
+    width: 40px;
+    padding: 2px;
+    cursor: pointer;
+    position: relative;
+    height: 20px;
+}
+.circleClicked{
+    background-color: #1c1c1c;
+    position: absolute;
+    right: 2px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.right-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
